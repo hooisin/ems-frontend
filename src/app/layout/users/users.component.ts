@@ -19,6 +19,9 @@ export class UsersComponent implements OnInit {
           emailAddress: ['', Validators.required],
           lastName: ['', Validators.required],
           firstName: ['', Validators.required],
+          phoneNo: ['', Validators.required],
+          address1: ['', Validators.required],
+          address2: ['', Validators.required],
       });
   }
 

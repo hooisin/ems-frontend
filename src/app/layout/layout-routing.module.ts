@@ -1,6 +1,7 @@
 import { NgModule } from '@angular/core';
 import { Routes, RouterModule } from '@angular/router';
 import { LayoutComponent } from './layout.component';
+import {MonthViewModule} from './month-view/month-view.module';
 
 const routes: Routes = [
     {
@@ -23,6 +24,16 @@ const routes: Routes = [
             {
                 path: 'users',
                 loadChildren: './users/users.module#UsersModule'
+            },
+
+            {
+                path: 'applyLeave',
+                loadChildren: './apply-leave/apply-leave.module#ApplyLeaveModule'
+            },
+
+            {
+                path: 'monthView',
+                loadChildren: './month-view/month-view.module#MonthViewModule'
             },
 
             {

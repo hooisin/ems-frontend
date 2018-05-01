@@ -6,7 +6,11 @@ const routes: Routes = [
     {
         path: '',
         component: UsersComponent
-    }
+    },
+    // {
+    //     path: '/:id',
+    //     component: UserEditComponent
+    // }
 ];
 
 @NgModule({

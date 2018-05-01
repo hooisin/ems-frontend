@@ -1,0 +1,44 @@
+label {
+    margin-top: 10px;
+}
+
+
+.breadcrumb {
+    background-color: transparent!important;
+}
+
+.page-header {
+    margin-left: 14px;
+}
+
+.sidebar[_ngcontent-c3] .list-group[_ngcontent-c3] a.list-group-item[_ngcontent-c3] {
+    font-size: 14px;
+}
+
+.navbar-nav {
+    font-size: 14px;
+}
+
+.dropdown-menu {
+    /*border-radius: 0!important;*/
+    min-width: 15rem!important;
+}
+
+.dropdown-item {
+    font-size: 12px;
+}
+
+.fc a.fc-event:not([href]):not([tabindex]) {
+    color: #fff
+}
+
+.fc .fc-day-grid-event {
+    padding: 1px 2px;
+}
+
+.fc .fc-event, .fc-event {
+    border: none;
+    background: #2d353c;
+    border-radius: 0;
+}
+

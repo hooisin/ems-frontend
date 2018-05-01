@@ -1,0 +1,134 @@
+<ol class="breadcrumb pull-right">
+    <li><a href="javascript:;">Home</a></li>
+    <li><a href="javascript:;">Leave</a></li>
+</ol>
+
+<h1 class="page-header">Apply Leave</h1>
+
+<hr class="bg-grey-lighter" />
+
+<div class="profile-container">
+    <div class="profile-section">
+        <div class="profile-left"></div>
+
+        <div class="profile-right">
+            <div class="profile-info">
+                <div class="table-responsive">
+
+                    <form [formGroup]="applyLeaveForm" (ngSubmit)="submitLeave(applyLeaveForm.value)" novalidate >
+                        <table class="table table-profile">
+                            <tbody>
+                            <tr>
+                                <td class="field">
+                                    <label class="control-label hidden-xs">Department<span class="text-danger">*</span></label>
+                                </td>
+                                <td>
+                                    <div class="form-group">
+                                        <div class="col-md-8">
+                                            <input type="text" class="form-control" formControlName="deptId">
+                                        </div>
+                                    </div>
+                                </td>
+                            </tr>
+
+                            <tr>
+                                <td class="field">
+                                    <label class="control-label hidden-xs">Leave Type<span class="text-danger">*</span></label>
+                                </td>
+                                <td>
+                                    <div class="form-group">
+                                        <div class="col-md-8">
+                                            <input type="text" class="form-control" formControlName="leaveTypeId">
+                                        </div>
+                                    </div>
+                                </td>
+                            </tr>
+
+                            <tr>
+                                <td class="field">
+                                    <label class="control-label hidden-xs">Upload Doc.<span class="text-danger">*</span></label>
+                                </td>
+                                <td>
+                                    <div class="form-group">
+                                        <div class="col-md-8">
+                                            <input type="text" class="form-control">
+                                        </div>
+                                    </div>
+                                </td>
+                            </tr>
+
+                            <tr>
+                                <td class="field">
+                                    <label class="control-label hidden-xs">From Date<span class="text-danger">*</span></label>
+                                </td>
+                                <td>
+                                    <div class="form-group">
+                                        <div class="col-md-8">
+                                            <input type="text" class="form-control" formControlName="fromDate">
+                                        </div>
+                                    </div>
+                                </td>
+                            </tr>
+
+                            <tr>
+                                <td class="field">
+                                    <label class="control-label hidden-xs">To Date<span class="text-danger">*</span></label>
+                                </td>
+                                <td>
+                                    <div class="form-group">
+                                        <div class="col-md-8">
+                                            <input type="text" class="form-control" formControlName="toDate">
+                                        </div>
+                                    </div>
+                                </td>
+                            </tr>
+
+
+                            <tr>
+                                <td class="field">
+                                    <label class="control-label hidden-xs">Applied Days (Days) <span class="text-danger">*</span></label>
+                                </td>
+                                <td>
+                                    <div class="form-group">
+                                        <div class="col-md-8">
+                                            <input type="text" class="form-control">
+                                        </div>
+                                    </div>
+                                </td>
+                            </tr>
+
+                            <tr>
+                                <td class="field">
+                                    <label class="control-label hidden-xs">Remaining Days (Days) <span class="text-danger">*</span></label>
+                                </td>
+                                <td>
+                                    <div class="form-group">
+                                        <div class="col-md-8">
+                                            <input type="text" class="form-control">
+                                        </div>
+                                    </div>
+                                </td>
+                            </tr>
+
+                            <tr>
+                                <td class="field">
+                                    <label class="control-label hidden-xs">Reason<span class="text-danger">*</span></label>
+                                </td>
+                                <td>
+                                    <div class="form-group">
+                                        <div class="col-md-8">
+                                            <textarea type="text" class="form-control" formControlName="reason"></textarea>
+                                        </div>
+                                    </div>
+                                </td>
+                            </tr>
+
+                            </tbody>
+                        </table>
+                    </form>
+
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
